@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      - npm ci
+  build:
+    commands:
+      - echo Build started on `date`
+      - npm run build # o el comando que uses para build
+artifacts:
+  files:
+    - '**/*'
