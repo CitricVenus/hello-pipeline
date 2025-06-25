@@ -55,26 +55,28 @@ La aplicación es un servidor Express básico que responde en el puerto 3000.
 
 Imagenes:
 
-Instancia  
-![](Instance.PNG)
-
-App
-![](appec2.PNG)
-
-Build
-![](build.PNG)
-
-Code Build
-![](codebuild.PNG)
-
-Deploy
-![](deploy.PNG)
-
 Pipeline
 ![](pipeline.PNG)
 
 Prueba app
 ![](prueba.PNG)
 
-Source
+Instancia  
+![](Instance.PNG)
+
+Instance working  
+![](appec2.PNG)
+
+Build  
+![](codebuild.PNG)
+
+Build logs  
+![](build.PNG)
+
+Deploy logs 
+![](deploy.PNG)
+
+Source logs
 ![](source.PNG)
+
+
