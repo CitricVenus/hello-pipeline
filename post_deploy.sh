@@ -1,2 +1,5 @@
 #!/bin/bash
-pm2 restart all || pm2 start index.js
+cd /home/ec2-user/app
+npm install
+pm2 start index.js || pm2 restart index.js
+pm2 save
